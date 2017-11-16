@@ -2,6 +2,7 @@
 
 class Question{
   constructor(){
+    this.question = question 
     this.save()
   }
   save(){
@@ -14,5 +15,4 @@ class Question{
 
 Question._All = []
 
-const question = new Question("What's your favorite food?")
-question.save()
+
