@@ -1,10 +1,10 @@
 'use strict';
 
 class Question{
-  constructor(questionNumb, questionText){
+  constructor(questionNumb, content){
 
     this.questionNumb = questionNumb
-    this.questionText = questionText
+    this.content = content
     this.save()
   }
   save(){
@@ -16,5 +16,3 @@ class Question{
 }
 
 Question._All = []
-
-
