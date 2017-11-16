@@ -2,7 +2,8 @@
 
 class Question{
   constructor(){
-    this.question = question 
+    this.questionNumb = questionNumb
+    this.questionText = questionText
     this.save()
   }
   save(){
@@ -15,4 +16,5 @@ class Question{
 
 Question._All = []
 
+let first = new Question(1, 'test question')
 
